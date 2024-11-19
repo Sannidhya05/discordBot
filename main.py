@@ -3,6 +3,7 @@ from discord.ext import commands
 import os
 import asyncio
 import yt_dlp
+import reactions
 
 # Get the bot token from the .env file
 BOT_TOKEN = os.getenv('TOKEN')
@@ -48,6 +49,9 @@ async def on_member_remove(member):
 @bot.command()
 async def ping(ctx):
     await ctx.send('Pong!')
+
+# Reactions
+reactions.setup(bot)
 
 # Command: Commands
 @bot.command()
