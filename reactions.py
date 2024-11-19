@@ -21,3 +21,6 @@ def setup(bot):
 
         if message.content.lower() == "good puppy":
             await message.add_reaction("🐶")  # Add dog emoji
+
+        # Ensure bot processes commands after handling reactions
+        await bot.process_commands(message)

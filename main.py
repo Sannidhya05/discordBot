@@ -23,11 +23,6 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 async def on_ready():
     print(f'Logged in as {bot.user}!')
 
-# Event : Errors
-@bot.event
-async def on_ready():
-    print(f"Bot is ready as {bot.user}")
-
 # Event : Member joining
 @bot.event
 async def on_member_join(member):
