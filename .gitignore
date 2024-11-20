@@ -8,4 +8,4 @@ node_modules/
 *.log
 
 # Ignore coockies.txt
-coockies.txt
+cookies.txt
