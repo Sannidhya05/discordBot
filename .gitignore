@@ -7,5 +7,5 @@ node_modules/
 # Ignore log files
 *.log
 
-# Ignore coockies.txt
+# Ignore cookies.txt
 cookies.txt
